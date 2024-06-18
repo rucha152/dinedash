@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FFB6B6"/> <!-- Slightly darker shade of light cheeky red -->
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+
+    <!-- Disabled state -->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#E6E6E6"/> <!-- Gray color for disabled state -->
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+
+    <!-- Default state with gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#FFC1C1"
+                android:endColor="#FFB6B6"> <!-- Slightly darker shade -->
+                android:angle="45"/>
+            </gradient> <!-- Light cheeky red -->
+            android:endColor="#FFB6B6" <!-- Slightly darker shade -->
+            android:angle="45"/>
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+
+</selector>

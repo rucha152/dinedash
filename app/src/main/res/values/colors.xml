@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startcolor">#56CCF2</color>
+    <color name="endcolor">#2F80ED</color>
+    <color name="primary">#1B3C73</color>
+    <color name="secondary">#387ADF </color>
+    <color name="accent">#FF407D </color>
+    <color name="secondaryTextColor">#FFFFFFFF</color> <!-- Dark Gray -->
+    <color name="cardTint">#E3F2FD</color> <!-- 70% opacity white -->
+    <color name="mainBg">#FBF9F1</color>
+
+</resources>
